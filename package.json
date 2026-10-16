@@ -1,0 +1,28 @@
+{
+  "name": "@portfolio/interaction-gap",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Privacy-conscious usability and accessibility testing tool that identifies user friction and generates Playwright repro tests",
+  "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test dist/*.test.js",
+    "ui": "npx serve -l 3000 ."
+  },
+  "keywords": [
+    "ux-analytics",
+    "accessibility",
+    "a11y",
+    "rage-clicks",
+    "playwright",
+    "zero-pii",
+    "usability"
+  ],
+  "author": "Antigravity Engineering",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}
